@@ -1,0 +1,15 @@
+syntax: glob
+
+*.pyc
+*.iws
+*.db
+*.user
+*.log
+*.suo
+
+out/
+logs/
+bin/
+obj/
+release/
+.vs/
