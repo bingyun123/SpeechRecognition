@@ -12,5 +12,4 @@ logs/
 bin/
 obj/
 release/
-.vs/
 SpeechRecognition/models/ggml-base.bin
