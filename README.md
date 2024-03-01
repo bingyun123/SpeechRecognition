@@ -26,7 +26,10 @@ SpeechRecognition for Windows
 ```bash
 $ git clone --recursive https://github.com/bingyun123/SpeechRecognition.git
 ```
-2. Open the repository in VS2019, switch to the _Release_ configuration, and build the solution.
+2.Download ggml-base.bin file to models folder from [https://huggingface.co](https://hf-mirror.com/ggerganov/whisper.cpp/tree/main)https://hf-mirror.com/ggerganov/whisper.cpp/tree/main or [https://huggingface.co/datasets/ggerganov/whisper.cpp/tree/main]https://huggingface.co/datasets/ggerganov/whisper.cpp/tree/main
+![image](https://github.com/bingyun123/SpeechRecognition/assets/30248969/ff76865a-a76c-41c9-a7ff-ef68afd3282d)
+
+3. Open the repository in VS2019, switch to the _Release_ configuration, and build the solution.
 
 ### Contribute
 
