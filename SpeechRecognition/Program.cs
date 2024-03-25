@@ -15,6 +15,7 @@ namespace SpeechRecognition
         [STAThread]
         static void Main()
         {
+            try { 
             Application.SetUnhandledExceptionMode(UnhandledExceptionMode.CatchException);
             //处理UI线程异常
             Application.ThreadException += new System.Threading.ThreadExceptionEventHandler(Application_ThreadException);
@@ -25,6 +26,11 @@ namespace SpeechRecognition
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
+            }
+            catch
+            {
+                MessageBox.Show("error");
+            }
         }
 
         static void Application_ThreadException(object sender, System.Threading.ThreadExceptionEventArgs e)

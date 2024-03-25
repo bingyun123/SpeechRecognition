@@ -10,7 +10,7 @@ namespace SpeechRecognition
 {
     class Recognition
     {
-        static public byte[] bufferedModel = File.ReadAllBytes(@"models\ggml-base.bin"); 
+        static public byte[] bufferedModel = File.ReadAllBytes(@"models\ggml-tiny.bin"); 
         static public string toText(string audioFile,string language)
         { 
             var segments = new List<SegmentData>();
